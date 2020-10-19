@@ -1,0 +1,31 @@
+<!--<div mat-dialog-content>-->
+<!--  -->
+<!--  <p>{{data.message}}</p>-->
+<!--</div>-->
+<!--<div mat-dialog-actions>-->
+<!--  <button mat-button (click)="data.secondaryCallback()">Cancel</button>-->
+<!--  <button mat-button (click)="data.primaryCallback()" cdkFocusInitial>Ok</button>-->
+<!--</div>-->
+<span class="timeoutDialog">
+<div class="container">
+  <div class="row">
+    <div class="header w-100 align-middle">
+      <mat-icon class="material-icons" svgIcon="alarm">alarm</mat-icon>
+    </div>
+  </div>
+  <div class="row">
+    <div style="padding: 8px 16px;">
+      <p class="message">Do you want to continue your session?</p>
+    </div>
+  </div>
+  <div class="row justify-content-around" style="margin: 10px; padding-bottom: 10px;">
+    <div class="col-auto align-self-start" style="float: left;">
+        <button class="btn btn-secondary dialog-btn" (click)="data.secondaryCallback()">NO</button>
+    </div>
+    <div class="col-auto align-self-end">
+        <button class="btn btn-primary dialog-btn" 
+        style="background-color: #134875;" (click)="data.primaryCallback()">YES</button>
+    </div>
+  </div>
+</div>
+</span>

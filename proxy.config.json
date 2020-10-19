@@ -1,0 +1,9 @@
+{
+    "/**/*": {
+        "target": "https://phwebapptest.com/",
+        "target1": "http://localhost:8081/",
+        "changeOrigin": true,
+        "secure": false,
+        "logLevel": "debug"
+    }
+}

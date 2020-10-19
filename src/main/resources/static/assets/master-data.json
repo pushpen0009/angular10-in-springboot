@@ -1,0 +1,2918 @@
+{
+  "labelForm": [
+    {
+      "pickDocFormId": "AMAZON",
+      "description": "Amazon Compliance Documents & Labels",
+      "reportFlag": "Y"
+    },
+    {
+      "pickDocFormId": "BBB",
+      "description": "Bed Bath & Beyond Compliance Documents/Labels",
+      "reportFlag": "Y"
+    },
+    {
+      "pickDocFormId": "DHL",
+      "description": "DHL",
+      "reportFlag": "N"
+    },
+    {
+      "pickDocFormId": "FDX",
+      "description": "FedEx",
+      "reportFlag": "N"
+    },
+    {
+      "pickDocFormId": "FDXA",
+      "description": "Fedex Air Document Form",
+      "reportFlag": "Y"
+    },
+    {
+      "pickDocFormId": "FDXG",
+      "description": "Fedex Ground Document Form",
+      "reportFlag": "Y"
+    },
+    {
+      "pickDocFormId": "GENERIC",
+      "description": "Generic Labels and Order Reports",
+      "reportFlag": "Y"
+    },
+    {
+      "pickDocFormId": "GENERIC-1",
+      "description": "Generic Labels and Order Reports",
+      "reportFlag": "Y"
+    },
+    {
+      "pickDocFormId": "GEN-RECV",
+      "description": "Generic Receiving",
+      "reportFlag": "Y"
+    },
+    {
+      "pickDocFormId": "GIFT CARD",
+      "description": "Gift Card Form",
+      "reportFlag": "Y"
+    },
+    {
+      "pickDocFormId": "ISBN",
+      "description": "ISBN Bar Code Labels",
+      "reportFlag": "Y"
+    },
+    {
+      "pickDocFormId": "ISBN-2",
+      "description": "Custom Fields ISBN",
+      "reportFlag": "Y"
+    },
+    {
+      "pickDocFormId": "MACYS",
+      "description": "Macys Compliance Documents & Labels",
+      "reportFlag": "Y"
+    },
+    {
+      "pickDocFormId": "UPS",
+      "description": "UPS",
+      "reportFlag": "N"
+    },
+    {
+      "pickDocFormId": "UPSA",
+      "description": "UPS Air Document Form",
+      "reportFlag": "Y"
+    },
+    {
+      "pickDocFormId": "UPSG",
+      "description": "UPS Ground Document Form",
+      "reportFlag": "Y"
+    },
+    {
+      "pickDocFormId": "USPS",
+      "description": "US Postal Services",
+      "reportFlag": "N"
+    },
+    {
+      "pickDocFormId": "WALMART",
+      "description": "Walmart Compliance Documents & Labels",
+      "reportFlag": "Y"
+    }
+  ],
+  "orderTypes": [
+    {
+      "orderTypeCode": "01REP",
+      "description": "Service Technician"
+    },
+    {
+      "orderTypeCode": "AMAZON",
+      "description": "Amazon"
+    },
+    {
+      "orderTypeCode": "BULK",
+      "description": "Bulk Pick Order"
+    },
+    {
+      "orderTypeCode": "CUSTOMER",
+      "description": "Customer Order Type"
+    },
+    {
+      "orderTypeCode": "DS",
+      "description": "Drop Ship"
+    },
+    {
+      "orderTypeCode": "ECOMMERCE",
+      "description": "eCommerce Web Orders"
+    },
+    {
+      "orderTypeCode": "EMPLOYEE",
+      "description": "Employee Order Type"
+    },
+    {
+      "orderTypeCode": "FAST",
+      "description": "Fast Pick Orders"
+    },
+    {
+      "orderTypeCode": "GIFTCARD",
+      "description": "Gift Card - Gift Wrap Order Type"
+    },
+    {
+      "orderTypeCode": "HOT",
+      "description": "Rush Orders"
+    },
+    {
+      "orderTypeCode": "JOBORDER",
+      "description": "Job Order"
+    },
+    {
+      "orderTypeCode": "KIT",
+      "description": "Kit Orders to be Produced"
+    },
+    {
+      "orderTypeCode": "NONRTN",
+      "description": "Return to Customer Non-Returnable Item"
+    },
+    {
+      "orderTypeCode": "PROD",
+      "description": "Production Work Order"
+    },
+    {
+      "orderTypeCode": "PROMO",
+      "description": "Orders to Ship with Promotional Flyer"
+    },
+    {
+      "orderTypeCode": "RTV",
+      "description": "Return to Vendor"
+    },
+    {
+      "orderTypeCode": "SERV-TECH",
+      "description": "Service Technician Supply Order"
+    },
+    {
+      "orderTypeCode": "SINGLE",
+      "description": "Single Order Type"
+    },
+    {
+      "orderTypeCode": "SO",
+      "description": "Sales Order"
+    },
+    {
+      "orderTypeCode": "XFER",
+      "description": "Transfer Order Type"
+    }
+  ],
+  "orderStatuses": [
+    {
+      "orderStatusCode": "000",
+      "description": "Initializing"
+    },
+    {
+      "orderStatusCode": "010",
+      "description": "Open"
+    },
+    {
+      "orderStatusCode": "011",
+      "description": "Submitted for Routing"
+    },
+    {
+      "orderStatusCode": "015",
+      "description": "Added to Wave"
+    },
+    {
+      "orderStatusCode": "020",
+      "description": "Submitted for Wave Calc"
+    },
+    {
+      "orderStatusCode": "050",
+      "description": "Pick Calc in Progress"
+    },
+    {
+      "orderStatusCode": "054",
+      "description": "Ready For External System Processing"
+    },
+    {
+      "orderStatusCode": "056",
+      "description": "Canceled External System Processing"
+    },
+    {
+      "orderStatusCode": "060",
+      "description": "Pick Calc Complete"
+    },
+    {
+      "orderStatusCode": "070",
+      "description": "Restocks Released"
+    },
+    {
+      "orderStatusCode": "080",
+      "description": "Picks Released"
+    },
+    {
+      "orderStatusCode": "090",
+      "description": "Picking"
+    },
+    {
+      "orderStatusCode": "100",
+      "description": "Staged, Pick Complete"
+    },
+    {
+      "orderStatusCode": "105",
+      "description": "Pack Complete"
+    },
+    {
+      "orderStatusCode": "110",
+      "description": "Loading"
+    },
+    {
+      "orderStatusCode": "130",
+      "description": "Unloading"
+    },
+    {
+      "orderStatusCode": "140",
+      "description": "Shipped"
+    },
+    {
+      "orderStatusCode": "150",
+      "description": "Cancelled"
+    },
+    {
+      "orderStatusCode": "160",
+      "description": "Un-shipped"
+    },
+    {
+      "orderStatusCode": "170",
+      "description": "Deleted"
+    }
+  ],
+  "freightTerms": [
+    {
+      "freightTerms": "B",
+      "description": "Bill Duty, Tax and Shipping Charges to Shipper (Free Domicile)"
+    },
+    {
+      "freightTerms": "C",
+      "description": "Collect"
+    },
+    {
+      "freightTerms": "D",
+      "description": "Delivery Duty Paid"
+    },
+    {
+      "freightTerms": "E",
+      "description": "Free On Board"
+    },
+    {
+      "freightTerms": "F",
+      "description": "Cost and Freight"
+    },
+    {
+      "freightTerms": "G",
+      "description": "Transport Collect - Payer Controlled"
+    },
+    {
+      "freightTerms": "H",
+      "description": "Transport Collect - Shipper Controlled"
+    },
+    {
+      "freightTerms": "I",
+      "description": "Import Express"
+    },
+    {
+      "freightTerms": "M",
+      "description": "Neutral Delivery Service"
+    },
+    {
+      "freightTerms": "P",
+      "description": "Prepaid"
+    },
+    {
+      "freightTerms": "R",
+      "description": "Recipient"
+    },
+    {
+      "freightTerms": "S",
+      "description": "Split Duty and Taxes"
+    },
+    {
+      "freightTerms": "T",
+      "description": "Third Party"
+    },
+    {
+      "freightTerms": "U",
+      "description": "Delivery Duty Unpaid"
+    },
+    {
+      "freightTerms": "V",
+      "description": "Delivered Duty Paid/V.A.T. Unpaid"
+    },
+    {
+      "freightTerms": "X",
+      "description": "Consignee Billing (Contract Service)"
+    },
+    {
+      "freightTerms": "Z",
+      "description": "Decided by the shipping system (Default)"
+    }
+  ],
+  "shipMethods": [
+    {
+      "shipMethod": "DHL1",
+      "description": "DHL USA Overnight",
+      "carrierId": "DHL",
+      "serviceLevel": "1D",
+      "shipServiceLevel": "1D",
+      "labelFormId": "GENERIC",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "DHL2",
+      "description": "DHL USA 2nd Day",
+      "carrierId": "DHL",
+      "serviceLevel": "2D",
+      "shipServiceLevel": "2D",
+      "labelFormId": "GENERIC",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "DHLG",
+      "description": "DHL Groud",
+      "carrierId": "DHL",
+      "serviceLevel": "G",
+      "shipServiceLevel": "G",
+      "labelFormId": "GENERIC",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "DHLI",
+      "description": "DHL Worldwide Priority Express",
+      "carrierId": "DHL",
+      "serviceLevel": "IP",
+      "shipServiceLevel": "IP",
+      "labelFormId": "GENERIC",
+      "internationalFlag": "Y",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "FDX1",
+      "description": "FedEx Next Day Air",
+      "carrierId": "FEDEX",
+      "serviceLevel": "1D",
+      "shipServiceLevel": "1D",
+      "labelFormId": "FDXA",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "FX2E",
+      "description": "FedEx 2 Day Economy",
+      "carrierId": "FEDEX",
+      "serviceLevel": "2D",
+      "shipServiceLevel": "2D",
+      "labelFormId": "FDXA",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "FXES",
+      "description": "FedEx Express Saver Package",
+      "carrierId": "FEDEX",
+      "serviceLevel": "3D",
+      "shipServiceLevel": "3D",
+      "labelFormId": "FDXA",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "FXGR",
+      "description": "FedEx Ground",
+      "carrierId": "FEDEX",
+      "serviceLevel": "G",
+      "shipServiceLevel": "G",
+      "labelFormId": "FDXG",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "FXIE",
+      "description": "FedEx International Economy",
+      "carrierId": "FEDEX",
+      "serviceLevel": "IECO",
+      "shipServiceLevel": "IECO",
+      "labelFormId": "FDXA",
+      "internationalFlag": "Y",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "FXIP",
+      "description": "FedEx International Priority",
+      "carrierId": "FEDEX",
+      "serviceLevel": "IP",
+      "shipServiceLevel": "IP",
+      "labelFormId": "FDXA",
+      "internationalFlag": "Y",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "FXSA",
+      "description": "FedEx Standard Air",
+      "carrierId": "FEDEX",
+      "serviceLevel": "1DS",
+      "shipServiceLevel": "1DS",
+      "labelFormId": "FDXA",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "NELT",
+      "description": "NELT",
+      "carrierId": "NELTL",
+      "serviceLevel": "P08",
+      "labelFormId": "GENERIC",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "NEMF",
+      "description": "New England Motor Freight",
+      "carrierId": "NEMF",
+      "serviceLevel": "N01",
+      "labelFormId": "GENERIC",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "PAXA",
+      "description": "Priority Solutions",
+      "carrierId": "PAXA",
+      "serviceLevel": "1D",
+      "labelFormId": "GENERIC",
+      "internationalFlag": "Y",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "RDWY",
+      "description": "Roadway Express",
+      "carrierId": "RDWY",
+      "serviceLevel": "RDWY",
+      "labelFormId": "GENERIC",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "UPS1",
+      "description": "UPS Next Day",
+      "carrierId": "UPS",
+      "serviceLevel": "1D",
+      "shipServiceLevel": "1D",
+      "labelFormId": "UPSA",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "UPS2",
+      "description": "UPS Second Day",
+      "carrierId": "UPS",
+      "serviceLevel": "2D",
+      "shipServiceLevel": "2D",
+      "labelFormId": "UPSA",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "UPS3",
+      "description": "UPS 3 Day Select",
+      "carrierId": "UPS",
+      "serviceLevel": "3D",
+      "shipServiceLevel": "3D",
+      "labelFormId": "UPSA",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "UPSG",
+      "description": "UPS Ground",
+      "carrierId": "UPS",
+      "serviceLevel": "G",
+      "shipServiceLevel": "G",
+      "labelFormId": "UPSG",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "UPSI",
+      "description": "UPS International Standard",
+      "carrierId": "UPS",
+      "serviceLevel": "I",
+      "shipServiceLevel": "I",
+      "labelFormId": "UPSA",
+      "internationalFlag": "Y",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "UPSS",
+      "description": "UPS Next Day Saver",
+      "carrierId": "UPS",
+      "serviceLevel": "1DS",
+      "shipServiceLevel": "1DS",
+      "labelFormId": "UPSA",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    },
+    {
+      "shipMethod": "USPS",
+      "description": "USPS - Priority",
+      "carrierId": "USPS",
+      "serviceLevel": "P07",
+      "labelFormId": "UPSA",
+      "internationalFlag": "N",
+      "additionalDocFlag": "N"
+    }
+  ],
+  "inventoryTypes": [
+    {
+      "invType": "A              ",
+      "description": "New Condition                                     "
+    },
+    {
+      "invType": "ASSEMBLED      ",
+      "description": "Assembled Unit                                    "
+    },
+    {
+      "invType": "B              ",
+      "description": "Execellent Like New                               "
+    },
+    {
+      "invType": "BOXED          ",
+      "description": "Boxed Inventory                                   "
+    },
+    {
+      "invType": "C              ",
+      "description": "Good Normal Wear                                  "
+    },
+    {
+      "invType": "CAL3           ",
+      "description": "Calibrated to CAL3                                "
+    },
+    {
+      "invType": "CASTING        ",
+      "description": "Blank casting                                     "
+    },
+    {
+      "invType": "CNC-COMPLETE   ",
+      "description": "CNC process complete                              "
+    },
+    {
+      "invType": "COLOR-CODED    ",
+      "description": "Color Coded Wires                                 "
+    },
+    {
+      "invType": "D              ",
+      "description": "Poor Excessive Wear                               "
+    },
+    {
+      "invType": "DAMAGED        ",
+      "description": "Damaged Inventory                                 "
+    },
+    {
+      "invType": "DESTROY        ",
+      "description": "Inventory Scheduled for Destruction               "
+    },
+    {
+      "invType": "DISTRESSES     ",
+      "description": "Distressed Product                                "
+    },
+    {
+      "invType": "E              ",
+      "description": "Non-Repairable                                    "
+    },
+    {
+      "invType": "EBAY           ",
+      "description": "ebay Inventory Type                               "
+    },
+    {
+      "invType": "EMBROIDERED    ",
+      "description": "VAS Embroidery Completed                          "
+    },
+    {
+      "invType": "EXCISE RATE 22%",
+      "description": "EXCISE RATE 22%                                   "
+    },
+    {
+      "invType": "EXCISE TYPE 1  ",
+      "description": "EXCISE TYPE 1                                     "
+    },
+    {
+      "invType": "FQ             ",
+      "description": "First Quality                                     "
+    },
+    {
+      "invType": "GRADE #122     ",
+      "description": "GRADE #122                                        "
+    },
+    {
+      "invType": "GRADE #124     ",
+      "description": "GRADE #124                                        "
+    },
+    {
+      "invType": "GRADE #126     ",
+      "description": "GRADE #126                                        "
+    },
+    {
+      "invType": "GROUND         ",
+      "description": "Ground Spices                                     "
+    },
+    {
+      "invType": "HEAT-TREATED   ",
+      "description": "Heat treated casting                              "
+    },
+    {
+      "invType": "INTEL          ",
+      "description": "Intel Mfg                                         "
+    },
+    {
+      "invType": "INUSE          ",
+      "description": "Installed and being used by patient               "
+    },
+    {
+      "invType": "JCP            ",
+      "description": "JC Penny                                          "
+    },
+    {
+      "invType": "MAC            ",
+      "description": "Mac                                               "
+    },
+    {
+      "invType": "MOTOROLA       ",
+      "description": "Motorola Mfg                                      "
+    },
+    {
+      "invType": "ND             ",
+      "description": "Nurses Drug Guide                                 "
+    },
+    {
+      "invType": "NEW-ITEM       ",
+      "description": "New Item                                          "
+    },
+    {
+      "invType": "NO LABEL       ",
+      "description": "No Excise Label                                   "
+    },
+    {
+      "invType": "NO-PRICE-TCKT  ",
+      "description": "No Retail Price Ticket                            "
+    },
+    {
+      "invType": "PRE-AUDIT      ",
+      "description": "Pre-Audit                                         "
+    },
+    {
+      "invType": "PRE-PACK       ",
+      "description": "Pre-Packed Inventory                              "
+    },
+    {
+      "invType": "REFURB         ",
+      "description": "Needs Refurbishing                                "
+    },
+    {
+      "invType": "REVISION2      ",
+      "description": "New Revision                                      "
+    },
+    {
+      "invType": "RL             ",
+      "description": "Ralph Lauren Inventory                            "
+    },
+    {
+      "invType": "SALVAGE        ",
+      "description": "Salvage for Parts                                 "
+    },
+    {
+      "invType": "SCRAP          ",
+      "description": "Scrap                                             "
+    },
+    {
+      "invType": "SQ             ",
+      "description": "Second Quality                                    "
+    },
+    {
+      "invType": "STD            ",
+      "description": "Standard Inventory Type                           "
+    },
+    {
+      "invType": "WALMART        ",
+      "description": "Walmart Inv                                       "
+    },
+    {
+      "invType": "WHOLE          ",
+      "description": "Whole Spice                                       "
+    }
+  ],
+  "itemClasses": [
+    {
+      "itemClass": "500",
+      "description": "500"
+    },
+    {
+      "itemClass": "ALCOHOL",
+      "description": "Alcohol"
+    },
+    {
+      "itemClass": "APPAREL",
+      "description": "Apparel"
+    },
+    {
+      "itemClass": "APPAREL",
+      "description": "Apparel"
+    },
+    {
+      "itemClass": "APPAREL",
+      "description": "Apparel"
+    },
+    {
+      "itemClass": "APPAREL",
+      "description": "Apparel"
+    },
+    {
+      "itemClass": "APPAREL",
+      "description": "Apparel"
+    },
+    {
+      "itemClass": "APPAREL",
+      "description": "Apparel"
+    },
+    {
+      "itemClass": "APPAREL",
+      "description": "Apparel"
+    },
+    {
+      "itemClass": "APPAREL",
+      "description": "Apparel"
+    },
+    {
+      "itemClass": "APPAREL",
+      "description": "Apparel"
+    },
+    {
+      "itemClass": "ARCHAEOLOGY",
+      "description": "Books in Archaeology"
+    },
+    {
+      "itemClass": "ASSET",
+      "description": "Asset Class"
+    },
+    {
+      "itemClass": "AUTOMOTIVE",
+      "description": "Automobile components"
+    },
+    {
+      "itemClass": "BANDAGES",
+      "description": "All Types of Bandages"
+    },
+    {
+      "itemClass": "BEACHWEAR",
+      "description": "Beachwear"
+    },
+    {
+      "itemClass": "BRA",
+      "description": "Bra Item Class"
+    },
+    {
+      "itemClass": "CAB SAUVIGIGNON",
+      "description": "Cabernet Sauvignon"
+    },
+    {
+      "itemClass": "CARGO",
+      "description": "Cargo from Container"
+    },
+    {
+      "itemClass": "CHEMICALS",
+      "description": "Dry Chemical Raw Materials"
+    },
+    {
+      "itemClass": "CLASS III",
+      "description": "Electric Motor Hand/Rider Trucks"
+    },
+    {
+      "itemClass": "COLDMEDS",
+      "description": "Cold Medicines"
+    },
+    {
+      "itemClass": "CONNECTORS",
+      "description": "Electrical Connectors"
+    },
+    {
+      "itemClass": "CONSTRUCTION",
+      "description": "Construction Materials"
+    },
+    {
+      "itemClass": "CONTAINER",
+      "description": "Dry Storage Ocean Container"
+    },
+    {
+      "itemClass": "CONTAINER",
+      "description": "Dry Storage Ocean Container"
+    },
+    {
+      "itemClass": "CONTAINERS",
+      "description": "Re-Useable Shipping Containers"
+    },
+    {
+      "itemClass": "CTRLSUBTANCE",
+      "description": "Controlled Substances"
+    },
+    {
+      "itemClass": "DENIM-JEANS",
+      "description": "Denim - Jeans"
+    },
+    {
+      "itemClass": "DROP-INS",
+      "description": "Drop-Ins Item Class"
+    },
+    {
+      "itemClass": "DUNNAGE",
+      "description": "Dunnage"
+    },
+    {
+      "itemClass": "EQUIPMENT",
+      "description": "Vermeer Equipment"
+    },
+    {
+      "itemClass": "FETCO",
+      "description": "Fetco Home Decor"
+    },
+    {
+      "itemClass": "FOOD",
+      "description": "Food & food service supplies"
+    },
+    {
+      "itemClass": "FORD",
+      "description": "Ford Parts"
+    },
+    {
+      "itemClass": "FRESHWATER",
+      "description": "Freshwater Fishing Equipment"
+    },
+    {
+      "itemClass": "FROZEN",
+      "description": "Frozen Foods -22 F"
+    },
+    {
+      "itemClass": "FURNITURE",
+      "description": "New Classic Furniture"
+    },
+    {
+      "itemClass": "GAMES",
+      "description": "Games"
+    },
+    {
+      "itemClass": "GIFT WRAP",
+      "description": "Gift Wrap Selections"
+    },
+    {
+      "itemClass": "GUITAR STRINGS",
+      "description": "Guitar Strings"
+    },
+    {
+      "itemClass": "HAZMAT",
+      "description": "Hazardous Materials"
+    },
+    {
+      "itemClass": "HOME-FASHION",
+      "description": "Home Fashion"
+    },
+    {
+      "itemClass": "HUNTER",
+      "description": "Hunter Boots"
+    },
+    {
+      "itemClass": "JACKETS",
+      "description": "Jackets"
+    },
+    {
+      "itemClass": "KIT LABELS",
+      "description": "Kit Labels"
+    },
+    {
+      "itemClass": "KNITS",
+      "description": "Knits"
+    },
+    {
+      "itemClass": "LAB COATS",
+      "description": "Lab Coats"
+    },
+    {
+      "itemClass": "LAPTOP",
+      "description": "Lap Top Computer"
+    },
+    {
+      "itemClass": "MAKEUP",
+      "description": "Makeup"
+    },
+    {
+      "itemClass": "MEDICAL DEVICES",
+      "description": "Medical Devices"
+    },
+    {
+      "itemClass": "MISC.",
+      "description": "Misc."
+    },
+    {
+      "itemClass": "NEW-ITEM",
+      "description": "New Item Class for PreReceipt"
+    },
+    {
+      "itemClass": "PAD/MOLD BRAS",
+      "description": "Padded \\ Molded Bras"
+    },
+    {
+      "itemClass": "PANTIES",
+      "description": "Panties"
+    },
+    {
+      "itemClass": "PANTS",
+      "description": "Pants"
+    },
+    {
+      "itemClass": "PANTY",
+      "description": "Panty Item Class"
+    },
+    {
+      "itemClass": "PERISH",
+      "description": "Perishable Products"
+    },
+    {
+      "itemClass": "PHYSICS",
+      "description": "Physics Titles"
+    },
+    {
+      "itemClass": "RECV CARTONS",
+      "description": "Cartons Receiving Item Class"
+    },
+    {
+      "itemClass": "RENTAL",
+      "description": "Rental Equipment"
+    },
+    {
+      "itemClass": "ROLL",
+      "description": "Carpet Rolls"
+    },
+    {
+      "itemClass": "SERIALCTRL",
+      "description": "Serial Number Controlled Items"
+    },
+    {
+      "itemClass": "SETS",
+      "description": "Sets"
+    },
+    {
+      "itemClass": "SHAPEWEAR",
+      "description": "Shapewear Item Class"
+    },
+    {
+      "itemClass": "SHOES",
+      "description": "Shoes"
+    },
+    {
+      "itemClass": "SHOES",
+      "description": "Shoes"
+    },
+    {
+      "itemClass": "SPORTING-GOODS",
+      "description": "SPORTING-GOODS"
+    },
+    {
+      "itemClass": "STOCK",
+      "description": "Stock Publications"
+    },
+    {
+      "itemClass": "STOCK",
+      "description": "Garden Decor"
+    },
+    {
+      "itemClass": "STOCK 2",
+      "description": "Plumbing"
+    },
+    {
+      "itemClass": "STOCK 3",
+      "description": "Inventory Class 3"
+    },
+    {
+      "itemClass": "SUPPLIES",
+      "description": "Supplies - NonStock Items"
+    },
+    {
+      "itemClass": "TIMKEN",
+      "description": "Timken Equipment"
+    },
+    {
+      "itemClass": "TOAST-HARDWARE",
+      "description": "Toast POS System Hardware"
+    },
+    {
+      "itemClass": "TOPS",
+      "description": "Tops"
+    },
+    {
+      "itemClass": "TOPS-CASUAL",
+      "description": "Tops - Casual"
+    },
+    {
+      "itemClass": "V-SELECT",
+      "description": "Vintner Select"
+    },
+    {
+      "itemClass": "WELDMENT",
+      "description": "Weldment Equipment"
+    }
+  ],
+  "receiptStatuses": [
+    {
+      "receiptStatus": "000",
+      "receiptStatusDesc": "Initial"
+    },
+    {
+      "receiptStatus": "010",
+      "receiptStatusDesc": "Open"
+    },
+    {
+      "receiptStatus": "030",
+      "receiptStatusDesc": "Approved"
+    },
+    {
+      "receiptStatus": "050",
+      "receiptStatusDesc": "Receiving"
+    },
+    {
+      "receiptStatus": "100",
+      "receiptStatusDesc": "Closed"
+    },
+    {
+      "receiptStatus": "120",
+      "receiptStatusDesc": "UN-Closed"
+    }
+  ],
+  "receiptTypes": [
+    {
+      "receiptType": "ASN",
+      "description": "ASN Receipts"
+    },
+    {
+      "receiptType": "DS",
+      "description": "Drop Ship"
+    },
+    {
+      "receiptType": "EXPT",
+      "description": "Expected Receipt With No Items"
+    },
+    {
+      "receiptType": "GENEW",
+      "description": "Auto Generate New PO"
+    },
+    {
+      "receiptType": "HB PO",
+      "description": "Hunter Boots"
+    },
+    {
+      "receiptType": "KITS",
+      "description": "Finished Kits"
+    },
+    {
+      "receiptType": "MFG",
+      "description": "Production Manufacturing Receipt"
+    },
+    {
+      "receiptType": "PO",
+      "description": "Purchase Order"
+    },
+    {
+      "receiptType": "PREC",
+      "description": "Production Receipt"
+    },
+    {
+      "receiptType": "RGA",
+      "description": "Authorized Return of Merchandise"
+    },
+    {
+      "receiptType": "STD",
+      "description": "Standard Vendor Receipt Type"
+    },
+    {
+      "receiptType": "TRUCK",
+      "description": "Truck reciept to Yard"
+    },
+    {
+      "receiptType": "UNEXP",
+      "description": "Unexpected Receipt"
+    },
+    {
+      "receiptType": "XFER",
+      "description": "Warehouse Transfer"
+    }
+  ],
+  "palletTypes": [
+    {
+      "palletType": "BUNDLE",
+      "carrierFlag": "N",
+      "cubeCode": "A",
+      "description": "Strapped Bundle",
+      "stdCapCube": 0,
+      "stdCapDepth": 0,
+      "stdCapHeight": 0,
+      "stdCapWeight": 0,
+      "stdCapWidth": 0,
+      "stdEmptyCube": 0,
+      "stdEmptyWeight": 0,
+      "trackEmptyFlag": "N",
+      "uomCapDepth": "IN",
+      "uomCapHeight": "IN",
+      "uomCapWeight": "LB",
+      "uomCapWidth": "IN",
+      "uomEmptyCube": "CF",
+      "uomEmptyWeight": "LB",
+      "usrCapDepth": 0,
+      "usrCapHeight": 0,
+      "usrCapWeight": 0,
+      "usrCapWidth": 0,
+      "usrEmptyCube": 0,
+      "usrEmptyWeight": 0,
+      "weightCode": "A"
+    },
+    {
+      "palletType": "CARRIER",
+      "carrierFlag": "Y",
+      "cubeCode": "A",
+      "description": "40 x 48 Carrier Pallet",
+      "stdCapCube": 77.77776379,
+      "stdCapDepth": 3.99999976,
+      "stdCapHeight": 5.83333299,
+      "stdCapWeight": 2500,
+      "stdCapWidth": 3.3333331299999998,
+      "stdEmptyCube": 4,
+      "stdEmptyWeight": 24,
+      "trackEmptyFlag": "N",
+      "uomCapDepth": "IN",
+      "uomCapHeight": "IN",
+      "uomCapWeight": "LB",
+      "uomCapWidth": "IN",
+      "uomEmptyCube": "CF",
+      "uomEmptyWeight": "LB",
+      "usrCapDepth": 48,
+      "usrCapHeight": 70,
+      "usrCapWeight": 2500,
+      "usrCapWidth": 40,
+      "usrEmptyCube": 4,
+      "usrEmptyWeight": 24,
+      "weightCode": "A"
+    },
+    {
+      "palletType": "CARRIER-26",
+      "carrierFlag": "Y",
+      "cubeCode": "A",
+      "description": "Carrier Pallet 26 Cubic Feet",
+      "stdCapCube": 26.66666184,
+      "stdCapDepth": 3.99999976,
+      "stdCapHeight": 1.9999998799999998,
+      "stdCapWeight": 2000,
+      "stdCapWidth": 3.3333331299999998,
+      "stdEmptyCube": 4.4,
+      "stdEmptyWeight": 35,
+      "trackEmptyFlag": "N",
+      "uomCapDepth": "IN",
+      "uomCapHeight": "IN",
+      "uomCapWeight": "LB",
+      "uomCapWidth": "IN",
+      "uomEmptyCube": "CF",
+      "uomEmptyWeight": "LB",
+      "usrCapDepth": 48,
+      "usrCapHeight": 24,
+      "usrCapWeight": 2000,
+      "usrCapWidth": 40,
+      "usrEmptyCube": 4.4,
+      "usrEmptyWeight": 35,
+      "weightCode": "A"
+    },
+    {
+      "palletType": "CARRIER-54",
+      "carrierFlag": "Y",
+      "cubeCode": "A",
+      "description": "Carrier Pallet 54 Cubic Feet",
+      "stdCapCube": 53.33332368,
+      "stdCapDepth": 3.99999976,
+      "stdCapHeight": 3.99999976,
+      "stdCapWeight": 2000,
+      "stdCapWidth": 3.3333331299999998,
+      "stdEmptyCube": 4.4,
+      "stdEmptyWeight": 35,
+      "trackEmptyFlag": "N",
+      "uomCapDepth": "IN",
+      "uomCapHeight": "IN",
+      "uomCapWeight": "LB",
+      "uomCapWidth": "IN",
+      "uomEmptyCube": "CF",
+      "uomEmptyWeight": "LB",
+      "usrCapDepth": 48,
+      "usrCapHeight": 48,
+      "usrCapWeight": 2000,
+      "usrCapWidth": 40,
+      "usrEmptyCube": 4.4,
+      "usrEmptyWeight": 35,
+      "weightCode": "A"
+    },
+    {
+      "palletType": "CARRIER-66",
+      "carrierFlag": "Y",
+      "cubeCode": "A",
+      "description": "Carrier Pallet 66 Cubic Feet",
+      "stdCapCube": 66.6666546,
+      "stdCapDepth": 3.99999976,
+      "stdCapHeight": 4.9999997,
+      "stdCapWeight": 2000,
+      "stdCapWidth": 3.3333331299999998,
+      "stdEmptyCube": 4.4,
+      "stdEmptyWeight": 35,
+      "trackEmptyFlag": "N",
+      "uomCapDepth": "IN",
+      "uomCapHeight": "IN",
+      "uomCapWeight": "LB",
+      "uomCapWidth": "IN",
+      "uomEmptyCube": "CF",
+      "uomEmptyWeight": "LB",
+      "usrCapDepth": 48,
+      "usrCapHeight": 60,
+      "usrCapWeight": 2000,
+      "usrCapWidth": 40,
+      "usrEmptyCube": 4.4,
+      "usrEmptyWeight": 35,
+      "weightCode": "A"
+    },
+    {
+      "palletType": "CART",
+      "carrierFlag": "N",
+      "cubeCode": "F",
+      "description": "Multi Shelf Cart",
+      "stdCapCube": 26.99999514,
+      "stdCapDepth": 1.49999991,
+      "stdCapHeight": 5.99999964,
+      "stdCapWeight": 200,
+      "stdCapWidth": 2.99999982,
+      "stdEmptyCube": 27,
+      "stdEmptyWeight": 20,
+      "trackEmptyFlag": "N",
+      "uomCapDepth": "IN",
+      "uomCapHeight": "IN",
+      "uomCapWeight": "LB",
+      "uomCapWidth": "IN",
+      "uomEmptyCube": "CF",
+      "uomEmptyWeight": "LB",
+      "usrCapDepth": 18,
+      "usrCapHeight": 72,
+      "usrCapWeight": 200,
+      "usrCapWidth": 36,
+      "usrEmptyCube": 27,
+      "usrEmptyWeight": 20,
+      "weightCode": "A"
+    },
+    {
+      "palletType": "CASTING-10",
+      "carrierFlag": "N",
+      "cubeCode": "F",
+      "description": "Formed casting transport container",
+      "stdCapCube": 63.99998848,
+      "stdCapDepth": 3.99999976,
+      "stdCapHeight": 3.99999976,
+      "stdCapWeight": 2500,
+      "stdCapWidth": 3.99999976,
+      "stdEmptyCube": 64,
+      "stdEmptyWeight": 40,
+      "trackEmptyFlag": "N",
+      "uomCapDepth": "IN",
+      "uomCapHeight": "IN",
+      "uomCapWeight": "LB",
+      "uomCapWidth": "IN",
+      "uomEmptyCube": "CF",
+      "uomEmptyWeight": "LB",
+      "usrCapDepth": 48,
+      "usrCapHeight": 48,
+      "usrCapWeight": 2500,
+      "usrCapWidth": 48,
+      "usrEmptyCube": 64,
+      "usrEmptyWeight": 40,
+      "weightCode": "F"
+    },
+    {
+      "palletType": "CONTAINER",
+      "carrierFlag": "N",
+      "cubeCode": "A",
+      "description": "45 FT Dry Storage Container",
+      "stdCapCube": 4500,
+      "stdCapDepth": 45,
+      "stdCapHeight": 10,
+      "stdCapWeight": 40000,
+      "stdCapWidth": 10,
+      "stdEmptyCube": 4500,
+      "stdEmptyWeight": 5000,
+      "trackEmptyFlag": "N",
+      "uomCapDepth": "FT",
+      "uomCapHeight": "FT",
+      "uomCapWeight": "LB",
+      "uomCapWidth": "FT",
+      "uomEmptyCube": "CF",
+      "uomEmptyWeight": "LB",
+      "usrCapDepth": 45,
+      "usrCapHeight": 10,
+      "usrCapWeight": 40000,
+      "usrCapWidth": 10,
+      "usrEmptyCube": 4500,
+      "usrEmptyWeight": 5000,
+      "weightCode": "A"
+    },
+    {
+      "palletType": "CRATE",
+      "carrierFlag": "N",
+      "cubeCode": "F",
+      "description": "Large Wooden Crate",
+      "stdCapCube": 127.99997696,
+      "stdCapDepth": 3.99999976,
+      "stdCapHeight": 7.99999952,
+      "stdCapWeight": 2000,
+      "stdCapWidth": 3.99999976,
+      "stdEmptyCube": 128,
+      "stdEmptyWeight": 75,
+      "trackEmptyFlag": "N",
+      "uomCapDepth": "IN",
+      "uomCapHeight": "IN",
+      "uomCapWeight": "LB",
+      "uomCapWidth": "IN",
+      "uomEmptyCube": "CF",
+      "uomEmptyWeight": "LB",
+      "usrCapDepth": 48,
+      "usrCapHeight": 96,
+      "usrCapWeight": 2000,
+      "usrCapWidth": 48,
+      "usrEmptyCube": 128,
+      "usrEmptyWeight": 75,
+      "weightCode": "A"
+    },
+    {
+      "palletType": "PALLET",
+      "carrierFlag": "N",
+      "cubeCode": "A",
+      "description": "40 x 48 Pallets",
+      "stdCapCube": 55.55554554,
+      "stdCapDepth": 3.99999976,
+      "stdCapHeight": 4.16666642,
+      "stdCapWeight": 2500,
+      "stdCapWidth": 3.3333331299999998,
+      "stdEmptyCube": 4,
+      "stdEmptyWeight": 24,
+      "trackEmptyFlag": "N",
+      "uomCapDepth": "IN",
+      "uomCapHeight": "IN",
+      "uomCapWeight": "LB",
+      "uomCapWidth": "IN",
+      "uomEmptyCube": "CF",
+      "uomEmptyWeight": "LB",
+      "usrCapDepth": 48,
+      "usrCapHeight": 50,
+      "usrCapWeight": 2500,
+      "usrCapWidth": 40,
+      "usrEmptyCube": 4,
+      "usrEmptyWeight": 24,
+      "weightCode": "A"
+    },
+    {
+      "palletType": "PUT-CART",
+      "carrierFlag": "N",
+      "cubeCode": "A",
+      "description": "Putaway Cart",
+      "stdCapCube": 0,
+      "stdCapDepth": 0,
+      "stdCapHeight": 0,
+      "stdCapWeight": 0,
+      "stdCapWidth": 0,
+      "stdEmptyCube": 0,
+      "stdEmptyWeight": 0,
+      "trackEmptyFlag": "N",
+      "uomCapDepth": "IN",
+      "uomCapHeight": "IN",
+      "uomCapWeight": "LB",
+      "uomCapWidth": "IN",
+      "uomEmptyCube": "CF",
+      "uomEmptyWeight": "LB",
+      "usrCapDepth": 0,
+      "usrCapHeight": 0,
+      "usrCapWeight": 0,
+      "usrCapWidth": 0,
+      "usrEmptyCube": 0,
+      "usrEmptyWeight": 0,
+      "weightCode": "A"
+    },
+    {
+      "palletType": "ROLL",
+      "carrierFlag": "N",
+      "cubeCode": "F",
+      "description": "Cable Roll",
+      "stdCapCube": 149.999973,
+      "stdCapDepth": 4.9999997,
+      "stdCapHeight": 5.99999964,
+      "stdCapWeight": 750,
+      "stdCapWidth": 4.9999997,
+      "stdEmptyCube": 150,
+      "stdEmptyWeight": 750,
+      "trackEmptyFlag": "N",
+      "uomCapDepth": "IN",
+      "uomCapHeight": "IN",
+      "uomCapWeight": "LB",
+      "uomCapWidth": "IN",
+      "uomEmptyCube": "CF",
+      "uomEmptyWeight": "LB",
+      "usrCapDepth": 60,
+      "usrCapHeight": 72,
+      "usrCapWeight": 750,
+      "usrCapWidth": 60,
+      "usrEmptyCube": 150,
+      "usrEmptyWeight": 750,
+      "weightCode": "A"
+    },
+    {
+      "palletType": "ROLLING RK",
+      "carrierFlag": "N",
+      "cubeCode": "F",
+      "description": "Rolling Rack",
+      "stdCapCube": 13.33333096,
+      "stdCapDepth": 1.9999998799999998,
+      "stdCapHeight": 1.6666665699999998,
+      "stdCapWeight": 500,
+      "stdCapWidth": 3.99999976,
+      "stdEmptyCube": 40,
+      "stdEmptyWeight": 50,
+      "trackEmptyFlag": "N",
+      "uomCapDepth": "IN",
+      "uomCapHeight": "IN",
+      "uomCapWeight": "LB",
+      "uomCapWidth": "IN",
+      "uomEmptyCube": "CF",
+      "uomEmptyWeight": "LB",
+      "usrCapDepth": 24,
+      "usrCapHeight": 20,
+      "usrCapWeight": 500,
+      "usrCapWidth": 48,
+      "usrEmptyCube": 40,
+      "usrEmptyWeight": 50,
+      "weightCode": "A"
+    },
+    {
+      "palletType": "TOTE",
+      "carrierFlag": "N",
+      "cubeCode": "F",
+      "description": "Conveyable Tote",
+      "stdCapCube": 0,
+      "stdCapDepth": 0,
+      "stdCapHeight": 0,
+      "stdCapWeight": 0,
+      "stdCapWidth": 0,
+      "stdEmptyCube": 4,
+      "stdEmptyWeight": 2,
+      "trackEmptyFlag": "N",
+      "uomCapDepth": "IN",
+      "uomCapHeight": "IN",
+      "uomCapWeight": "LB",
+      "uomCapWidth": "IN",
+      "uomEmptyCube": "CF",
+      "uomEmptyWeight": "LB",
+      "usrCapDepth": 0,
+      "usrCapHeight": 0,
+      "usrCapWeight": 0,
+      "usrCapWidth": 0,
+      "usrEmptyCube": 4,
+      "usrEmptyWeight": 2,
+      "weightCode": "A"
+    }
+  ],
+  "pickRules": [
+    {
+      "pickRule": "ALLPICKS",
+      "description": "All Pick Types Rule (POP, COP and FOP Picks)"
+    },
+    {
+      "pickRule": "BOP",
+      "description": "BOP Pick Rule"
+    },
+    {
+      "pickRule": "CASE",
+      "description": "Case Only"
+    },
+    {
+      "pickRule": "DISTRO",
+      "description": "Distro Eqaul Allocation"
+    },
+    {
+      "pickRule": "FLOAT-BIN",
+      "description": "Floating Pick Bin Generation"
+    },
+    {
+      "pickRule": "LINEAR",
+      "description": "Pick by Length"
+    },
+    {
+      "pickRule": "PTS",
+      "description": "Put to Store"
+    },
+    {
+      "pickRule": "PUT2STORE",
+      "description": "Put to Store"
+    }
+  ],
+  "billCodes": [
+    {
+      "billCode": "ASN-DEC",
+      "description": "ASN Decrement",
+      "periodicFlag": "N",
+      "userDescription": "ASN Decrement",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "ASN-INC",
+      "description": "ASN Increment",
+      "periodicFlag": "N",
+      "userDescription": "ASN Increment",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "ASSEMBLE",
+      "description": "Assemble",
+      "periodicFlag": "N",
+      "userDescription": "Assembly Special Projects",
+      "usrFlag": "Y"
+    },
+    {
+      "billCode": "AUDITP",
+      "description": "Audit Pallet",
+      "periodicFlag": "N",
+      "userDescription": "Audit Pallet",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "BH-CONT",
+      "description": "Black Hole Content",
+      "periodicFlag": "N",
+      "userDescription": "Black Hole Content",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "BLDG-MOVE",
+      "description": "Building Move",
+      "periodicFlag": "N",
+      "userDescription": "Building Move",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "BOP-PICK",
+      "description": "Batch Pallet Pick",
+      "periodicFlag": "N",
+      "userDescription": "Batch Pallet Pick",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "CART-DS",
+      "description": "Move Carton to DockSpot (Repack)",
+      "periodicFlag": "N",
+      "userDescription": "Move Carton to DockSpot (Repack)",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "CART-PKP",
+      "description": "Carton Pickup",
+      "periodicFlag": "N",
+      "userDescription": "Carton Pickup",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "CART-STG",
+      "description": "Carton Stage",
+      "periodicFlag": "N",
+      "userDescription": "Carton Stage",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "CART-WHS",
+      "description": "Carton Stage to a different Warehouse",
+      "periodicFlag": "N",
+      "userDescription": "Carton Stage to a different Warehouse",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "CHG-DEC",
+      "description": "Decrease Content Quantity",
+      "periodicFlag": "N",
+      "userDescription": "Decrease Content Quantity",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "CHG-INC",
+      "description": "Increase Content Quantity",
+      "periodicFlag": "N",
+      "userDescription": "Increase Content Quantity",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "CHG-INVT",
+      "description": "Change Inventory Type",
+      "periodicFlag": "N",
+      "userDescription": "Change Inventory Type",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "CLEAN-LINE",
+      "description": "Production Clean Line",
+      "periodicFlag": "N",
+      "userDescription": "Production Clean Line",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "CLEAN-LOC",
+      "description": "Production Clean Location",
+      "periodicFlag": "N",
+      "userDescription": "Production Clean Location",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "CLEAN-RUN",
+      "description": "Production Clean Run",
+      "periodicFlag": "N",
+      "userDescription": "Production Clean Run",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "CM-PICK",
+      "description": "Pick Carrier Manual Pallet Pick",
+      "periodicFlag": "N",
+      "userDescription": "Pick Carrier Manual Pallet Pick",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "CM-PKP",
+      "description": "Pickup Carrier Manual Pallet",
+      "periodicFlag": "N",
+      "userDescription": "Pickup Carrier Manual Pallet",
+      "usrFlag": "N"
+    },
+    {
+      "billCode": "CM-PUT",
+      "description": "Deliver Carrier Manual Pallet",
+      "periodicFlag": "N",
+      "userDescription": "Deliver Carrier Manual Pallet",
+      "usrFlag": "N"
+    }
+  ],
+  "lengthUoms": [
+    "AA",
+    "CM",
+    "FT",
+    "IN",
+    "M",
+    "MM",
+    "YD"
+  ],
+  "weightUoms": [
+    "GR",
+    "KG",
+    "LB",
+    "OZ",
+    "TN"
+  ],
+  "transactionCodes": [
+    {
+      "ifTranCode": "ASN-DEC",
+      "description": "ASN Decrement",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "ASN-INC",
+      "description": "ASN Increment",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "AUDITP",
+      "description": "Audit Pallet",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "BH-CART",
+      "description": "Black Hole Carton",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "BH-CONT",
+      "description": "Black Hole Content",
+      "uploadReqFlag": "Y",
+      "signCode": "-"
+    },
+    {
+      "ifTranCode": "BH-PALL",
+      "description": "Black Hole Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "BLDG-MOVE",
+      "description": "Building Move",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "BLOCK-CHG",
+      "description": "Change Location Block",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "BLOCK-PLC",
+      "description": "Block Location",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "BLOCK-REL",
+      "description": "Release Location Block",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "BOP-NST",
+      "description": "Nostock Batch Order Pallet Pick",
+      "uploadReqFlag": "N",
+      "signCode": "-"
+    },
+    {
+      "ifTranCode": "BOP-PICK",
+      "description": "Pick Batch Order Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CART-DS",
+      "description": "Move Carton to DockSpot (Repack)",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CART-PKP",
+      "description": "Pickup Carton",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CART-STG",
+      "description": "Stage Carton",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CART-WHS",
+      "description": "Stage Carton to a different warehouse",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CHG-CART",
+      "description": "Change Carton Type",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CHG-DEC",
+      "description": "Decrease Content Quantity",
+      "uploadReqFlag": "Y",
+      "signCode": "-"
+    },
+    {
+      "ifTranCode": "CHG-INC",
+      "description": "Increase Content Quantity",
+      "uploadReqFlag": "Y",
+      "signCode": "+"
+    },
+    {
+      "ifTranCode": "CHG-INVT",
+      "description": "Change Inventory Type",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CHG-PALL",
+      "description": "Change a Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CLEAN-LINE",
+      "description": "Production Clean Line",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CLEAN-LOC",
+      "description": "Production Clean Location",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CLEAN-RUN",
+      "description": "Production Clean Run",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CM-CNCL",
+      "description": "Cancel Carrier Man Pallet Delivery, Put Elsewhere",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CM-DEL",
+      "description": "Delete Empty Carrier Manual Delivery Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CM-PICK",
+      "description": "Pick Carrier Manual Pallet Pick",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CM-PKP",
+      "description": "Pickup Carrier Manual Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CM-PUT",
+      "description": "Deliver Carrier Manual Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CM-STG",
+      "description": "Stage Carrier Manual Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CO-LOAD",
+      "description": "Load Carton",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CONT-PICK",
+      "description": "Content Pick on Carrier",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CONT-PKP",
+      "description": "Pickup Content",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CONT-STG",
+      "description": "Stage Content",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CO-PKP",
+      "description": "Pickup Carrier Order Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "COP-NST",
+      "description": "Nostock Carrier Order Pallet Pick",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "COP-PICK",
+      "description": "Pick Carrier Order Pallet Pick",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "COP-PICK-F",
+      "description": "Fast Case Pick Order",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "COP-PICK-X",
+      "description": "XDock Case Pick Order",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "COP-SHORT",
+      "description": "Short Carrier Order Pallet Pick",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "COST-DEC",
+      "description": "Cost Receivings Negative",
+      "uploadReqFlag": "N",
+      "signCode": "-",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CO-STG",
+      "description": "Stage Carrier Order Pallet",
+      "uploadReqFlag": "N",
+      "signCode": "+"
+    },
+    {
+      "ifTranCode": "COST-INC",
+      "description": "Cost Receivings Positive",
+      "uploadReqFlag": "N",
+      "signCode": "+",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CO-UNLD",
+      "description": "Unload Carton",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CP-CNCL",
+      "description": "Cancel Carrier Pallet Putaway, Putaway Elsewhere",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CP-DEL",
+      "description": "Delete Empty Carrier Putaway Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CP-NEW",
+      "description": "Request New Carrier Pallet Putaway Location",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CP-PKP",
+      "description": "Pickup Carrier Putaway Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CP-PUT",
+      "description": "Putaway Carrier Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CP-STG",
+      "description": "Stage Carrier Putaway Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CR-CNCL",
+      "description": "Cancel Carrier Rstk Pallet Delivery, Put Elsewhere",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CR-DEL",
+      "description": "Delete Empty Carrier Restock Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CR-PICK",
+      "description": "Pick Carrier Restock Pallet Pick",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CR-PKP",
+      "description": "Pickup Carrier Restock Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CR-PUT",
+      "description": "Deliver Carrier Restock",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CR-STG",
+      "description": "Stage Carrier Restock Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CUT",
+      "description": "Cut Order Quantity",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CUT-PICKED",
+      "description": "Cut Picked Order Quantity",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CW-DEC",
+      "description": "Catch Weight Adjustment Decrease",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CW-INC",
+      "description": "Catch Weight Adjustment Increase",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CY-CLOSE",
+      "description": "Close Cycle Count",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CY-CLOSEX",
+      "description": "Close Cycle Count with Review",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CY-DEC",
+      "description": "Decrease Cycle Counted Content",
+      "uploadReqFlag": "Y",
+      "signCode": "-"
+    },
+    {
+      "ifTranCode": "CY-DEL-CRT",
+      "description": "Delete Cycle Counted Carton",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CY-DEL-PLT",
+      "description": "Delete Cycle Counted Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CY-FND-CNT",
+      "description": "Cyc Content Moved from lost and found location",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "CY-FND-CRT",
+      "description": "Cyc Carton Moved from lost and found location",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "CY-FND-PLT",
+      "description": "Cyc Pallet Moved from lost and found location",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "CY-INC",
+      "description": "Increase Cycle Counted Content",
+      "uploadReqFlag": "Y",
+      "signCode": "+"
+    },
+    {
+      "ifTranCode": "CY-LF-DEL",
+      "description": "Cyc Lost Found Del",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CY-LST-CNT",
+      "description": "Content Moved to lost and found location",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "CY-LST-CRT",
+      "description": "Carton Moved to lost and found location",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "CY-LST-DEC",
+      "description": "Deplete due cycle counting",
+      "uploadReqFlag": "N",
+      "signCode": "-",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CY-LST-PLT",
+      "description": "Pallet Moved to lost and found location",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "CY-MOV-CNT",
+      "description": "Content Moved from another location due to count",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "CY-MOV-CRT",
+      "description": "Carton Moved from another location due to count",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "CY-MOV-PLT",
+      "description": "Pallet Moved from another location due to count",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "CY-NEW-CRT",
+      "description": "New Cycle Counted Carton",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CY-NEW-PLT",
+      "description": "New Cycle Counted Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "CY-RECOUNT",
+      "description": "Recount Cycle Count",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "CY-TOT-DEC",
+      "description": "Variance Decrease for Cycle Counted Item",
+      "uploadReqFlag": "Y",
+      "signCode": "-"
+    },
+    {
+      "ifTranCode": "CY-TOT-INC",
+      "description": "Variance Increase for Cycle Counted Item",
+      "uploadReqFlag": "Y",
+      "signCode": "+"
+    },
+    {
+      "ifTranCode": "DEC",
+      "description": "Decrease Content Quantity",
+      "uploadReqFlag": "Y",
+      "signCode": "-"
+    },
+    {
+      "ifTranCode": "DEC-AUTO",
+      "description": "Decrease Inventory due to auto process - auto cycle counting",
+      "uploadReqFlag": "Y",
+      "signCode": "-",
+      "sumReqFlag": "Y"
+    },
+    {
+      "ifTranCode": "DEC-DUNAGE",
+      "description": "Decrease  Dunnage Inventory",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "DEL-CART",
+      "description": "Delete Carton",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "DEL-PALL",
+      "description": "Delete Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FM-CNCL",
+      "description": "Cancel Full Manual Pallet Delivery, Put Elsewhere",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FM-PICK",
+      "description": "Pick Full Manual Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FM-PKP",
+      "description": "Pickup Full Manual Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FM-PUT",
+      "description": "Deliver Full Manual Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FM-RSTG",
+      "description": "Restage Full Manual Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FND-CNT",
+      "description": "Content Moved from lost and found location (man)",
+      "uploadReqFlag": "N",
+      "signCode": "+"
+    },
+    {
+      "ifTranCode": "FND-CRT",
+      "description": "Carton Moved from lost and found location (man)",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FND-PLT",
+      "description": "Pallet Moved from lost and found location (man)",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FOD-COD",
+      "description": "Convert FOD to COD",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FO-LOAD",
+      "description": "Load Full Order Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FO-PKP",
+      "description": "Pickup Full Order Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FOP-NST",
+      "description": "Nostock Full Order Pallet Pick",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FOP-PICK",
+      "description": "Pick Full Order Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FOP-PICK-F",
+      "description": "Fast Pallet Pick Order",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "FOP-PICK-X",
+      "description": "XDock Pallet Pick Order",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "FOP-SHORT",
+      "description": "Short Full Order Pallet Pick",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FO-STG",
+      "description": "Stage Full Order Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FO-UNLD",
+      "description": "Unload Full Order Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FP-CNCL",
+      "description": "Cancel Full Pallet Putaway, Putaway Elsewhere",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FP-NEW",
+      "description": "Request New Full Pallet Putaway Location",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FP-PKP",
+      "description": "Pickup Full Pallet Putaway Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FP-PUT",
+      "description": "Putaway Full Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FP-RSTG",
+      "description": "Restage Full Pallet Putaway",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FR-CNCL",
+      "description": "Cancel Full Restock Pallet Delivery, Put Elsewhere",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FR-PICK",
+      "description": "Pick Full Restock Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FR-PKP",
+      "description": "Pickup Full Restock Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FR-PUT",
+      "description": "Deliver Full Restock Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "FR-RSTG",
+      "description": "Restage Full Restock Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "HOLD-CHG",
+      "description": "Change Hold Code",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "HOLD-PLACE",
+      "description": "Place Hold",
+      "uploadReqFlag": "Y",
+      "signCode": "-"
+    },
+    {
+      "ifTranCode": "HOLD-REL",
+      "description": "Release Hold",
+      "uploadReqFlag": "Y",
+      "signCode": "+"
+    },
+    {
+      "ifTranCode": "INC",
+      "description": "Increase Content Quantity",
+      "uploadReqFlag": "Y",
+      "signCode": "+"
+    },
+    {
+      "ifTranCode": "INC-AUTO",
+      "description": "Increase Inventory due to auto process - auto cycle counting",
+      "uploadReqFlag": "Y",
+      "signCode": "+",
+      "sumReqFlag": "Y"
+    },
+    {
+      "ifTranCode": "INC-DUNAGE",
+      "description": "Increase Dunnage Inventory",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "KIT-BUILD",
+      "description": "Kit Build",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "KIT-EXPAND",
+      "description": "Kit Expand Raw Material Returned",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "KIT-FG",
+      "description": "De-Kit Finished goods",
+      "uploadReqFlag": "Y",
+      "signCode": "-",
+      "sumReqFlag": "Y"
+    },
+    {
+      "ifTranCode": "KIT-RAW",
+      "description": "Kit Raw Material/Component Used",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "LABEL",
+      "description": "Price Label",
+      "uploadReqFlag": "N",
+      "signCode": ""
+    },
+    {
+      "ifTranCode": "LBL-CONF",
+      "description": "Shipping Label Confirm",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "LST-CNT",
+      "description": "Content Moved to lost and found location (man)",
+      "uploadReqFlag": "Y",
+      "signCode": "-",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "LST-CRT",
+      "description": "Carton Moved to lost and found location (man)",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "LST-PLT",
+      "description": "Pallet Moved to lost and found location (man)",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "MERGE-DEC",
+      "description": "Decrease Content Quantity due to Merge",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "MERGE-INC",
+      "description": "Increase Content Quantity due to Merge",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "MOVE",
+      "description": "Move Content from One Location to Another",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "MOVE-2",
+      "description": "2 Part of Move from One Location to Another",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "MOVE-CART",
+      "description": "Move Carton",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "MOVE-CONT",
+      "description": "Move Content",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "MOVE-CONV",
+      "description": "Move to Conveyor (Repack)",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "MOVE-PALL",
+      "description": "Move Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "MOVE-SER",
+      "description": "Move Serialized",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "MOVE-SPALL",
+      "description": "Move Shipping Pallet",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "MOVE-WC",
+      "description": "Move Work Carton (Shipping Carton)",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "NEW",
+      "description": "Receiving",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "NEW-CART",
+      "description": "Create Carton",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "NEW-PALL",
+      "description": "Create Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "PALL-CONS",
+      "description": "Pallet Consolidation",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "PALL-DS",
+      "description": "Move Pallet to DockSpot (Repack)",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "PALL-PKP",
+      "description": "Pickup Pallet",
+      "uploadReqFlag": "N",
+      "disablePallet": "Y",
+      "disableCarton": "Y"
+    },
+    {
+      "ifTranCode": "PALL-STG",
+      "description": "Stage Pallet",
+      "uploadReqFlag": "N",
+      "disablePallet": "Y",
+      "disableCarton": "Y"
+    },
+    {
+      "ifTranCode": "PALL-WHS",
+      "description": "Stage Pallet to a different warehouse",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-CARTS-M",
+      "description": "Pack - Ship Multi Cartons (w_ship_multi_cartons )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-CONF",
+      "description": "Pack - Carton Confirmation (w_carton_confirm)",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "PDEL-CART",
+      "description": "Production Delete Carton",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "PDEL-CONT",
+      "description": "Production Delete Content",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "PDEL-PALL",
+      "description": "Production Delete Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-MERGE",
+      "description": "Pack - Carton Merge (w_carton_merge_ship )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "PMOV-CART",
+      "description": "Production Move Carton",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "PMOV-CONT",
+      "description": "Production Move Content",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "PMOV-PALL",
+      "description": "Production Move Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "POP-DEC",
+      "description": "POP pick deplete inventory (interfaces only)",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "POP-NST",
+      "description": "Nostock Piece Order Pick",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "POP-PICK",
+      "description": "Pick Piece Order Pick",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "POP-PICK-F",
+      "description": "Fast Piece Pick Order",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "POP-PICK-X",
+      "description": "XDock Piece Pick Order",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "POP-SHORT",
+      "description": "Short Piece Order Pick",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "POST-DEC",
+      "description": "Post Receivings Negative",
+      "uploadReqFlag": "N",
+      "signCode": "-",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "POST-INC",
+      "description": "Post Receivings Positive",
+      "uploadReqFlag": "N",
+      "signCode": "+",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-OVPK",
+      "description": "Pack - Carton OverPack (w_carton_overpack_ship )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-OVPKBF",
+      "description": "Pack - Carton OverPack Border Free (w_carton_overpack_ship_bfree )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-PCONSOL",
+      "description": "Pack - Pick Consolidtion (w_picked_consolidation )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-PKSTORE",
+      "description": "Pack - Carton PickPack By Store (w_carton_pickpack_by_store  )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-PPACK",
+      "description": "Pack - Carton Pick Pack (w_carton_repack (pick pack) )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-PPACK-M",
+      "description": "Pack - Carton Pick Pack Multi (w_carton_repack_1_m (pick pack)  )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-PPSHP",
+      "description": "Pack - Carton PickPack Ship (w_carton_pickpack_ship  )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-PPSHP-MS",
+      "description": "Pack - Pick Pack Multi-Source (w_multi_src_pickpack_ship )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-PPSHP-SO",
+      "description": "Pack - Carton PickPack Ship Single Order (w_carton_pickpack_ship_sio )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-PREP-SO",
+      "description": "Pack - Carton Repack Ship Order Single (w_carton_repack_ship_sio )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-PUTSTORE",
+      "description": "Pack - Put to Store (w_put_to_store )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-PVSHP",
+      "description": "Pack - Carton Pick Verify Ship (w_carton_pickverify_ship )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-RECOMB",
+      "description": "Pack - Carton Carton Recombine Ship (w_carton_recombine_ship )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-REPACK",
+      "description": "Pack - Carton Repack (w_carton_repack (repack)  )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-REPACK-M",
+      "description": "Pack - Carton Repack Multi (w_carton_repack_1_m (repack)    )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "PROD-CART",
+      "description": "Production Carton",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "PROD-CONT",
+      "description": "Production Carton",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "PROD-DEC",
+      "description": "Production Post Deduct",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "PROD-INC",
+      "description": "Production Post Increment",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "PROD-PALL",
+      "description": "Production Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-SHPBATCH",
+      "description": "Pack - Ship Batch (w_ship_batch )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "P-SHPSTAT",
+      "description": "Pack - Ship Station (w_ship_station )",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "PUT-SORT",
+      "description": "Putaway Sort",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "REC",
+      "description": "Receive Content",
+      "uploadReqFlag": "Y",
+      "signCode": "+"
+    },
+    {
+      "ifTranCode": "REC-DEC",
+      "description": "Decrease Received Content",
+      "uploadReqFlag": "Y",
+      "signCode": "-"
+    },
+    {
+      "ifTranCode": "REC-INC",
+      "description": "Increase Received Content",
+      "uploadReqFlag": "Y",
+      "signCode": "+"
+    },
+    {
+      "ifTranCode": "RE-MERGE",
+      "description": "Re-Merge Location",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "REPACK",
+      "description": "Repack Carton",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "REPACKP",
+      "description": "Repack Pieces",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "RESTACK",
+      "description": "Restack Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "RSTK-NEW",
+      "description": "New Restock Request",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "RSTK-NST",
+      "description": "Nostock Restock Pick",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "SER-PICK",
+      "description": "Serial Pick on Carrier",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "SER-PKP",
+      "description": "Pickup Serial",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "SER-STG",
+      "description": "Stage Serial",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "SHIPC-DEC",
+      "description": "Ship Content",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "SHIPC-INC",
+      "description": "Un-Ship Content",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "SHIP-DEC",
+      "description": "Ship Order line",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "SHIP-INC",
+      "description": "Un-Ship Order line",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "SHIP-PACK",
+      "description": "Pack and Ship Carton",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "SHIP-PACKQ",
+      "description": "Pack and Ship Carton Quick",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "SHP-CART",
+      "description": "Ship Carton via Shipping screen",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "SHP-CARTQ",
+      "description": "Ship Carton via Shipping screen Quick",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "SUBM-CART",
+      "description": "Submit Carton for Manual Putaway",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "SUBM-CONT",
+      "description": "Submit Content for Manual Putaway",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "SUBM-PALL",
+      "description": "Submit Pallet for Manual Putaway",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "SUB-PALL",
+      "description": "Submit a Pallet for Putaway",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "SWEEP-UP",
+      "description": "Sweep at the End of Day",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "TRASH-CART",
+      "description": "Trash a Carton",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "TRASH-PALL",
+      "description": "Trash a Pallet",
+      "uploadReqFlag": "N"
+    },
+    {
+      "ifTranCode": "TRK-MOVE",
+      "description": "Truck Move",
+      "uploadReqFlag": "N",
+      "signCode": "0"
+    },
+    {
+      "ifTranCode": "VA-PROC",
+      "description": "Value Add Processed",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "VERIFY",
+      "description": "Verify Carton",
+      "uploadReqFlag": "N",
+      "signCode": "-"
+    },
+    {
+      "ifTranCode": "VERIFY-Q",
+      "description": "Verify Carton Quick",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "VOID",
+      "description": "Void Package",
+      "uploadReqFlag": "N",
+      "sumReqFlag": "N"
+    },
+    {
+      "ifTranCode": "WILLCALL",
+      "description": "Willcall Order Shipment",
+      "uploadReqFlag": "N"
+    }
+  ]
+}

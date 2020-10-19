@@ -1,0 +1,16 @@
+{
+  "active": false,
+  "usrGrpList": [
+    {
+      "warehouseIds": [
+        "SP",
+        "WHS-1"
+      ],
+      "ownerIds": [
+        "160",
+        "110",
+        "SP"
+      ]
+    }
+  ]
+}

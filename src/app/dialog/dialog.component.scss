@@ -1,0 +1,35 @@
+.dialog-container {
+  width: 450px;
+  height: 270px;
+}
+
+.header {
+  height: 117px;
+  background: #134875;
+  border-radius: 0px !important;
+  mat-icon {
+    align-content: center;
+    font-size: 84px;
+  }
+}
+
+ ::ng-deep .mat-dialog-container {
+  border: 0px !important;
+  padding: 0px !important;
+  border-radius: 0px !important;
+}
+.message {
+  margin-top: 10px;
+  align-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #4F4F4F;
+}
+
+.dialog-btn {
+  width: 96px;
+  height: 36px;
+}

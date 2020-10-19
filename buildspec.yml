@@ -1,0 +1,48 @@
+version: 0.2
+environment_variables:
+  plaintext:
+    S3_BUCKET: "ephs-ui"
+    BUILD_ENV: "prod"
+phases:
+  install:
+    #our old clouformation template can not handle the following
+    runtime-versions:
+      nodejs: 12
+      java: corretto11
+    #commands:
+    #  - echo Installing source NPM dependencies...
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - aws --version
+      - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
+      - REPOSITORY_URI=260743980169.dkr.ecr.us-east-2.amazonaws.com/ephs-ui-ecr
+      - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
+      - IMAGE_TAG=build-$(echo $CODEBUILD_BUILD_ID | awk -F":" '{print $2}')
+      - pip3 install awscli --upgrade --user
+      - export CODEARTIFACT_TOKEN=`aws codeartifact get-authorization-token --domain ephs --domain-owner 260743980169 --query authorizationToken --output text`
+  build:
+    commands:
+      - echo Installing source NPM dependencies...
+      - npm install
+      - npm install -g @angular/cli
+      - echo Building UI started on `date`
+      - ng build --prod
+      - echo Copying static resources
+      - cp -R dist/ephs src/main/resources/static/
+      - echo Building Java started on `date`
+      - mvn clean install
+      - echo Building the Docker image...
+      - docker build -t $REPOSITORY_URI:latest .
+      - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Pushing the Docker images...
+      - docker push $REPOSITORY_URI:latest
+      - docker push $REPOSITORY_URI:$IMAGE_TAG
+      - echo Writing image definitions file...
+      - printf '[{"name":"ephs-ui-app","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
+      - cat imagedefinitions.json
+artifacts:
+  files: imagedefinitions.json

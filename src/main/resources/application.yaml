@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: sample-ui-app
+server:
+  port: 8097
+#  servlet:
+#    context-path: /sample-ui-service
