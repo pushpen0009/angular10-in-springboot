@@ -16,25 +16,10 @@ export class UserService {
   constructor(private httpServie: HttpClient) { }
 
   login(usrId, password): Observable<any> {
-    if (!this.getTenantName()) {
-      return throwError({error: { message: 'Invalid Tenant URL'}});
-    }
     return this.httpServie.post(environment.BACKEND_SERVICE_ENDPOINT + 'api-gateway/auth-service-app/auth-service/api/auth', {
       usrId,
-      password,
-      tenantId: this.getTenantName()
+      password
     });
-  }
-
-  private getTenantName = (): any => {
-    const hostname = window.location.hostname;
-    if (hostname.startsWith('localhost')) {
-      return 'ephs';
-    } else if (hostname.split('.').length > 2) {
-      return hostname.split('.')[0];
-    } else {
-      return false;
-    }
   }
 
   logout(): void {

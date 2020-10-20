@@ -63,14 +63,8 @@ export class LoginComponent implements OnInit {
       .login(this.form.value.userId, this.form.value.password)
       .subscribe(
         (userDetails: any) => {
-          this.error = null;
-          this.loading = false;
-          this.userService.storeUserTokenandDetails(userDetails);
-          if (this.currentUser.isPasswordChangeRequired) {
-            this.router.navigateByUrl('changePassword');
-          } else {
-            this.router.navigateByUrl(this.returnUrl);
-          }
+          
+          alert("Success");
         },
         error => {
           this.error = error.error.message;

@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  BACKEND_SERVICE_ENDPOINT: '',
+  BACKEND_SERVICE_ENDPOINT: 'https://jkchny-corp.com/',
   sessionTimeout: 3 * 60000
 };
 
